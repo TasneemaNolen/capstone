@@ -1,12 +1,18 @@
 <!DOCTYPE html>    
 <html> 
     <style>
-body 
-{  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*
+
+body {   
+    height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
     margin: 0;  
     padding: 0;  
-    background-color:#f2faedba;  
     font-family: 'Poppins',sans-serif; 
+    background: linear-gradient(135deg, #318858, #ffffff);
 }  
 .login{  
         width: 382px;  
@@ -15,17 +21,17 @@ body
         margin: 20 0 0 450px;  
         padding: 80px;  
         background: #389e66;  
-        border-radius: 15px ;  
+        border-radius: 5px ;  
           
 }  
 h2{  
     text-align: center;  
-    color: #277582;  
+    color: #000000;  
     padding: 20px;  
 }  
 label{  
     color: #123612;  
-    font-size: 17px;  
+    font-size: 15px;  
 }  
 #Uname{  
     width: 300px;  
@@ -67,6 +73,7 @@ a{
 </head>    
 <body>    
     <h2>Welcome Back!</h2><br>    
+    
     <div class="login">    
     <form id="login" method="get" action="login.php">    
         <label><b>User Name     
